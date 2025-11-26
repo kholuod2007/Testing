@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Islamic University of Minnesota</title>
+
+  <!-- خطوط Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color:  rgb(69, 43, 43);
+      font-family: 'Roboto', sans-serif; /* خط النص */
+    }
+
+    h1, h2, h3 {
+      font-family: 'Poppins', sans-serif; /* خط العناوين */
+    }
+
+    .header-box {
+      border: 3px dashed white;
+      padding: 20px;
+      text-align: center;
+      width: 90%;
+      margin: 20px auto;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+    }
+
+    .header-box h1 {
+      color: black;
+      margin-top: 10px;
+      font-size: 28px;
+    }
+
+    .header-box h1:hover {
+      color: blue;
+      cursor: pointer;
+    }
+
+    a.website-link {
+      color: white;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    a.website-link:hover {
+      color: blue;
+    }
+
+    a.arabic-link {
+      color: black;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    a.arabic-link:hover {
+      color: blue;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      text-align: center;
+      background-color: aliceblue;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    form.student-form {
+      width: 100%;
+      background-color:  rgb(129, 90, 90);
+      list-style-position: inside;
+    }
+
+    .courses-list {
+      width: 100%;
+      background-color: rgb(129, 90, 90);
+      list-style-position: inside;
+      color: rgb(0, 0, 0);
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .specializations-list {
+      width: 100%;
+      background-color: rgb(129, 90, 90);
+      list-style-position: inside;
+      color: rgb(0, 0, 0);
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .header-row th {
+      background-color: rgb(229, 170, 170);
+      color: black;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    h2, h3, p {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <br>
+  <div class="header-box">
+    <h1 style="text-align:center;">Islamic University of Minnesota</h1>
+    <img src="log.jpg" height="100" width="200" alt="logo">
+  </div>
+
+  <h3 style="text-align:center;">
+    <a href="https://site.ium.edu.so/en" class="website-link">Visit University Website</a>
+  </h3>
+
+  <h2>Department of information Technology</h2>
+
+  <p>
+    The Department of Information Technology offers a variety of academic programs
+    aimed at equipping students with the knowledge and skills needed to face
+    challenges in the world of technology
+  </p>
+
+  <h2>Courses Offered:</h2>
+  <ul class="courses-list">
+    <li>Introduction to Programming</li>
+    <li>Networking Systems</li>
+    <li>Web Development</li>
+    <li>Database Design</li>
+  </ul>
+
+  <h2>Specializations:</h2>
+
+  <ol class="specializations-list" type="A">
+    <li>Artificial Intelligence</li>
+    <li>Application Development</li>
+    <li>Information Security</li>
+  </ol>
+
+  <h2>University Schedule</h2>
+  <table style="width: 40%; border: 1px solid black;">
+    <tr class="header-row">
+      <th>Day</th>
+      <th>Time</th>
+      <th>Attendace</th>
+    </tr>
+
+    <tr>
+      <th>Sunday</th>
+      <td>9:00-5:00</td>
+      <td>
+        <a href="https://zoom.us/" target="_blank">
+          <img src="zoom.jpg" height="40" width="40" alt="Zoom Logo">
+        </a>
+      </td>
+    </tr>
+
+    <tr>
+      <th>Monday</th>
+      <td>9:00-5:00</td>
+      <td>
+        <a href="https://telegram.org/" target="_blank">
+          <img src="tel.jpg" height="40" width="40" alt="Telegram Logo">
+        </a>
+      </td>
+    </tr>
+
+    <tr>
+      <th>Tuesday</th>
+      <td>9:00-5:00</td>
+      <td>
+        <a href="https://zoom.us/" target="_blank">
+          <img src="zoom.jpg" height="40" width="40" alt="Zoom Logo">
+        </a>
+      </td>
+    </tr>
+<tr>
+      <th>Wednesday</th>
+      <td>9:00-5:00</td>
+      <td>
+        <a href="https://telegram.org/" target="_blank">
+          <img src="tel.jpg" height="40" width="40" alt="Telegram Logo">
+        </a>
+      </td>
+    </tr>
+
+    <tr>
+      <th>Thursday</th>
+      <td>9:00-5:00</td>
+      <td>
+        <a href="https://zoom.us/" target="_blank">
+          <img src="zoom.jpg" height="40" width="40" alt="Zoom Logo">
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  <h3>Student Registration Form</h3>
+  <hr>
+
+  <form class="student-form">
+    <br>
+    <label for="name">Student Name</label>
+    <input type="text" id="name" name="name">
+    <br><br>
+
+    <label for="mobileNumber">Mobile Number:</label>
+    <input type="text" id="mobileNumber" name="mobileNumber">
+    <br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="text" id="email" name="email">
+    <br><br>
+
+    <label for="dateOfBirth">Date of Birth:</label>
+    <input type="text" id="dateOfBirth" name="dateOfBirth">
+    <br><br>
+
+    <label>Specialization:</label>
+    <br>
+
+    <input type="radio" id="speclallzation" name="specialization">
+    <label for="speclallzation">Speclallzation</label>
+    <br>
+
+    <input type="radio" id="ai" name="specialization">
+    <label for="ai">Artificial lntelligence</label>
+    <br>
+
+    <input type="radio" id="cs" name="specialization">
+    <label for="cs">Computer Science</label>
+    <br>
+
+    <input type="radio" id="cyber" name="specialization">
+    <label for="cyber">Cybersecurity</label>
+    <br>
+
+    <input type="radio" id="infoSec" name="specialization">
+    <label for="infoSec">Information Security</label>
+    <br><br>
+
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+      <option value="">Select Gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <br><br>
+
+    <input type="submit" value="Register" style="background-color:green; color:white; padding:5px 15px; border:none; border-radius:5px;">
+  </form>
+
+  <hr>
+
+  <p>
+    <a href="Arab.html" class="arabic-link">Switch to Arabic</a>
+  </p>
+
+</body>
+</html>
